@@ -191,7 +191,7 @@
 #X coords 0 1 256 -1 200 140 1 0 0;
 #X restore 890 36 graph;
 #X obj 569 283 vsl 19 162 0 1 0 0 \$0-volume \$0-midivol volume 0 -9 0 12 #ff0400 #000000 #000000 0 1;
-#X obj 294 186 nbx 5 17 -1e+37 1e+37 0 1 \$0-pitch \$0-midipitch pitch 0 -10 0 12 #fcfcfc #000000 #000000 163 256;
+#X obj 294 186 nbx 5 17 -1e+37 1e+37 0 1 \$0-pitch \$0-midipitch pitch 0 -10 0 12 #fcfcfc #000000 #000000 187 256;
 #X obj 382 185 hsl 496 19 0 1 0 0 \$0-position \$0-midipos position -2 30 0 12 #c6feff #000000 #000000 0 1;
 #X obj 1198 261 vu 19 200 empty empty -1 -10 0 12 #404040 #000000 1 0;
 #X obj 6 7 cnv 19 270 500 empty empty Input 20 12 0 12 #e1ffdc #404040 0;
@@ -281,7 +281,7 @@
 #X obj 185 55 bng 19 250 50 0 empty empty load\ soundfile 0 -10 0 8 #faff00 #000000 #000000;
 #X obj 910 227 s restoreHanningWindow;
 #X obj 910 194 bng 19 250 50 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000;
-#X obj 747 283 vsl 19 162 0.1 95 0 1 reverbTime empty empty 0 -9 0 12 #fcfcfc #000000 #000000 14500 1;
+#X obj 747 283 vsl 19 162 0.1 95 0 1 reverbTime empty reverb\ time 0 -9 0 12 #fcfcfc #000000 #000000 14500 1;
 #X connect 0 0 6 0;
 #X connect 0 1 6 1;
 #X connect 8 0 12 0;
